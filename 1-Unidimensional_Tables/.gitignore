@@ -1,0 +1,27 @@
+# CLion project files
+.idea/                   # IDE settings folder
+*.iml                    # module files
+
+# CMake build directories (adjust name if you use a different build dir)
+cmake-build-debug/       # CLion’s default build output
+cmake-build-*/           # any other cmake-build-* dirs
+
+# Optional: CMake user files
+CMakeLists.txt.user
+
+# Binaries and intermediate build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Other editor temp files
+*~                       # backup files
+*.swp                    # Vim swap
+*.swo
+*.tmp
+
+# Your extra patterns
+*.txt                    # ignore all .txt
